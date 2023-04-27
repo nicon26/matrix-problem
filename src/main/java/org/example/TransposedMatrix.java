@@ -1,27 +1,22 @@
 package org.example;
 
-public class Matrix {
-
+public class TransposedMatrix {
     private int n, m;
     private int [][] matrix = new int [10][10];
 
-    Matrix(int n, int m){ // constructor
+    TransposedMatrix(int n, int m, int matrix[][]){
         this.n = n;
         this.m = m;
+        this.matrix = matrix;
     }
 
-    int[][] calculateMatrix() { // method that calculates the matrix
-
-        int i , j;
-
-
-
+    int[][] calculateMatrix(int matrix[][]){
 
         return matrix;
     }
 
     void print(){
-        System.out.println("The matrix is: ");
+        System.out.println("The transpose of the matrix is: ");
         for(int i = 1; i <= n; i++){
             for(int j = 1; j <= n; j++)
                 System.out.print(matrix[i][j]);
