@@ -40,11 +40,13 @@ public class App
                     break;
                 case 4: // transpose of a matrix
                     System.out.println("You chose to transpose a matrix.");
-                    System.out.println("Enter your matrix!");
+
                     int rows4, columns4;
                     int [][] matrix1 = new int [10][10];
                     rows4 = in.nextInt();
                     columns4 = in.nextInt();
+
+                    System.out.println("Enter your matrix!");
                     int i,j;
                     for(i = 0; i < rows4; i++)
                         for(j = 0; j < columns4; j++) {
