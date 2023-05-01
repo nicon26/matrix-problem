@@ -12,6 +12,11 @@ public class App
         while(ok) {
 
             System.out.println("Select your action: ");
+            System.out.println("1. Simple matrix.");
+            System.out.println("2. Square matrix.");
+            System.out.println("3. Letter matrix.");
+            System.out.println("4. Transposed of a matrix.");
+            System.out.println("5. Exit menu");
             Scanner in = new Scanner(System.in);
             choice = in.nextInt();
 
